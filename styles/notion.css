@@ -1,0 +1,139 @@
+
+.notion-page{
+  margin:0 !important;
+  padding:0 !important;
+}
+.notion-page-scroller{
+  margin:0 !important;
+  padding:0 !important;
+}
+.notion-frame{
+  margin:0 !important;
+  padding:0 !important;
+}
+
+
+/* .notion-title{
+  margin:0 !important;
+  padding:0 !important;
+} */
+
+.notion-file{
+padding: 10px !important;
+}
+
+.notion-file-info{  
+ padding-right: 20px !important;
+ width: 100% !important;
+}
+
+
+.notion-text {
+  line-height: 26px;
+  font-size: 1.6rem;
+}
+
+.notion-inline-underscore{
+  font-size:1.4rem;
+  color: #6C757D;
+  line-height: 21px;
+  text-decoration:none !important
+}
+
+.notion-toggle{
+  background-color: #FAFAFF;
+  border-radius: 8px;
+  padding: 16px !important;
+  pointer-events: none !important;
+  user-select: none !important; 
+}
+
+.notion-hash-link{
+  display: none !important;
+}
+.notion-equation{
+  font: none !important;
+  flex-wrap: wrap !important;
+  white-space:wrap !important;
+}
+.notion-equation-inline{
+  font: none !important;
+  flex-wrap: wrap !important;
+  white-space:wrap !important;
+}
+
+
+.mord{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  color :#6C757D;
+}
+
+.katex {
+  display: flex;
+  width: 100%;
+   font: none !important;  flex-wrap: wrap !important;
+   white-space:wrap !important;
+}
+.base {
+  display: flex;
+  width: 100%;
+  font: none !important;  flex-wrap: wrap !important;
+  white-space:wrap !important;
+}
+.katex .base {  display: flex;
+  width: 100%;
+  font: none !important;
+  flex-wrap: wrap !important;
+  white-space:wrap !important;
+}
+.katex-html{  display: flex;
+  width: 100%;
+  font: none !important;
+  flex-wrap: wrap !important;
+  white-space:wrap !important;
+}
+
+
+.notion-inline-code{
+  font-size: 1.4rem;
+  font-weight: 500;
+  border-radius: 8px  !important;
+  border: 1px solid #ACDEF6  !important;;
+  background-color:#F2F9FC !important;
+  padding: 2px 8px;
+  color: #1CB0F6  !important;;
+  margin-right: 4px;
+  cursor: pointer;
+  white-space: nowrap;
+  display: inline-block;
+  margin-bottom:4px;
+}
+
+
+summary{
+  padding: 8px 16px;
+  font-size:1.6rem;
+  font-weight: 700;
+  background-color: #A2A5F9;
+  color:white;
+  border-radius: 100px;
+  width: fit-content;
+  margin-bottom: 16px !important;
+  cursor:default !important;
+}
+
+details > div{
+  margin-left:0 !important;
+}
+
+.notion-page-icon-inline {
+  display: none;
+}
+.notion-callout{
+  border-radius: 16px;
+  border:none !important;
+  padding:8px !important;
+  color:#6C757D !important;
+  background-color: #F8F9FA !important;
+}

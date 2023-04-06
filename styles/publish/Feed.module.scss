@@ -1,0 +1,28 @@
+.page-feed-main {
+  padding-bottom: 168px;
+}
+.page-feed-regist {
+  padding: 24px 16px 138px 16px;
+}
+.page-feed-search {
+  padding: 16px;
+  .c-comment {
+    height: calc(100vh - 56px);
+  }
+}
+.func-navigation {
+  position: fixed;
+  left: 16px;
+  right: 16px;
+  bottom: 34px;
+  border-radius: 32px;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  &__inr {
+    display: flex;
+  }
+  &__btn {
+    flex: 1;
+    height: 64px;
+  }
+}

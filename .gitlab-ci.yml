@@ -1,0 +1,72 @@
+cache:
+  paths:
+    - node_modules
+stages:
+  - build
+  - run
+
+variables:
+  S3_BUCKET_STG: ${S3_BUCKET}
+  S3_BUCKET_PROD: ${S3_BUCKET} # Updated
+
+.yarn_build:
+  image: node:17.2.0
+  script: |
+    yarn # Install all dependencies
+    yarn build
+    rm -rf node_modules
+    rm -rf .git
+    rm -rf .next
+    apt-get update
+    apt-get install -y zip unzip
+    zip -r deploy.zip ./
+  artifacts:
+    paths:
+      - ./
+
+yarn_stage:
+  extends: .yarn_build
+  stage: build
+  before_script:
+    - echo "${ENV_LOCAL}" >> .env.local
+    - export APP_ENV="stg"
+  only:
+    refs:
+      - stage
+
+yarn_prod:
+  extends: .yarn_build
+  stage: build
+  before_script:
+    - export APP_ENV="prod"
+  only:
+    refs:
+      - main
+
+.deploy_aws:
+  image: registry.gitlab.com/gitlab-org/cloud-deploy/aws-base:latest
+  script: |
+    aws s3 cp ./deploy.zip s3://${S3_BUCKET} --region ap-northeast-2
+    aws deploy create-deployment --application-name mzp-stg-front-learn --deployment-config-name CodeDeployDefault.OneAtATime --deployment-group-name front-learn --s3-location bucket=mzp-fe-learn,bundleType=zip,key=deploy.zip
+
+deploy_stage:
+  extends: .deploy_aws
+  stage: run
+  dependencies:
+    - yarn_stage
+  before_script:
+    - export S3_BUCKET=${S3_BUCKET_STG}
+  only:
+    refs:
+      - stage
+
+deploy_prod:
+  extends: .deploy_aws
+  stage: run
+  dependencies:
+    - yarn_prod
+  before_script:
+    - export S3_BUCKET=${S3_BUCKET_PROD}
+  only:
+    refs:
+      - main

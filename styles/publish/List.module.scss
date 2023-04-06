@@ -1,0 +1,110 @@
+// @import './abstracts/functions';
+// @import './abstracts/mixins';
+
+.st-item-component {
+  display: flex;
+  align-items: center;
+  .content {
+    margin-left: 8px;
+  }
+  .label {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #212529;
+  }
+  .code {
+    margin-left: 4px;
+    font-size: 14px;
+    line-height: 1;
+    color: #adb5bd;
+    font-weight: normal;
+  }
+  .tag-list { 
+    display: flex;
+    margin-top: 8px;
+    width: auto;
+    flex-wrap: wrap;
+  }
+  .tag {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1;
+    color: #6c757d;
+    margin-right: 8px;
+    // & + .tag {
+    //   margin-left: 8px;
+    // }
+  }
+}
+
+.fr-item-component {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 0 !important;
+  padding-left: 0 !important;
+  .content {
+    margin-left: 8px;
+    padding-left: 0;
+  }
+  .label {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1;
+    color: #212529;
+    padding-top: .25rem;
+    span {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 48px;
+        height: 20px;
+        color: #fff;
+        background-color: #F44680;
+        border-radius: 14px;
+        font-size: 12px;
+        font-weight: normal;
+        margin-left: 4px;
+    }
+  }
+  .desc {
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #6c757d;
+    // @include ellipsis(1);
+  }
+  .info {
+    margin-top: 6px;
+    font-size: 12px;
+    line-height: 1;
+    color: #ADB5BD;
+  }
+  .mentor {
+    position: relative;
+    border: 2px solid #ff9600;
+    border-radius: 2px 50% 50% 50%;
+    background: #ff9600;
+    &:before {
+      content: '';
+      position: absolute;
+      left: -4px;
+      top: -2px;
+      width: 16px;
+      height: 16px;
+      background: center/100% url(/images/ico/ico_crown.svg);
+    }
+    img{
+      border-radius: 50%;
+      background-color: #fff;
+    }
+  }
+  // .club { 
+  // }
+  .em {
+    color: #6C757D;
+  }
+}

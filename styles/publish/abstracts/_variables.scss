@@ -1,0 +1,100 @@
+:root {
+  // 삭제 예정
+  --list-bg: #f9f9f9;
+  --list-border: #f8f8f8;
+  --line-list-border: #e0e0e0;
+  
+  --side-padding: 1rem;
+  --side-half-padding: .5rem;
+  --top-padding: 1rem;
+  --bottom-padding: 1rem;
+  --header-height: 3.25rem;
+  --bottom-fixed-height: 5.375rem;
+  --btn-line: #ddd;
+  --is-primary-fontSize: 1rem;
+  --is-primary-color: #6C757D;
+  --is-sub-color: #ADBOBD;
+  --is-strong-color: #212529;
+  --is-semiStrong-color: #495057;
+  --is-inputPlaceholder-color : #CED4DA;
+  --is-inputPlaceholder-up-color: #212529;
+  --is-input-border: #DEE2E6;
+
+  --is-input-radius: .5rem;
+  --btn-disabled-bg: #F8F9FA;
+  --btn-disabled-border: #DEE2E6;
+  --btn-disabled-color: #ced4da;
+  --is-link-color: rgb(0, 123, 255);
+  --is-highlight: #a50034;
+  --coral: #FF4E4E;
+  --blue: #376696;
+  --dark-blue: #1C4E8E;
+  --mint: #33ddb0;
+  --white: #fff;
+  --purple: #6F6CE8;
+  --purple-gra:  linear-gradient(135deg, #6F6CE8 30%,#F865F2 100%);
+  --is-primary-bg : #efefef;
+  --popup-border: #d9d9d9;
+
+  
+  --margin-top4: .25rem;
+  --margin-top8: .5rem;
+  --margin-top12: .75rem;
+  --margin-top16: 1rem;
+  --margin-top32: 2rem;
+  --margin-top40: 2.5rem;
+  --margin-top56: 3.5rem;
+
+  --margin-bottomrem: 3.25rem;
+  --margin-bottom32: 2rem;
+  --margin-bottom40: 2.5rem;
+
+  --margin-side4: .25rem;
+  --margin-side8: .5rem;
+  --margin-side12: .75rem;
+  --margin-side16: 1rem;
+ 
+
+  
+/* html  */
+  --mz-font-size-30: 1.875rem;
+  --mz-line-height-30: 1.333;
+  --mz-font-size-29: 1.8125rem;
+  --mz-line-height-29: 1.31;
+  --mz-font-size-28: 1.75rem;
+  --mz-line-height-28: 1.321;
+  --mz-font-size-27: 1.6875rem;
+  --mz-line-height-27: 1.333;
+  --mz-font-size-26: 1.625rem;
+  --mz-line-height-26: 1.346;
+  --mz-font-size-25: 1.5625rem;
+  --mz-line-height-25: 1.36;
+  --mz-font-size-24: 1.5rem;
+  --mz-line-height-24: 1.375;
+  --mz-font-size-23: 1.4375rem;
+  --mz-line-height-23: 1.391;
+  --mz-font-size-22: 1.375rem;
+  --mz-line-height-22: 1.409;
+  --mz-font-size-21: 1.3125rem;
+  --mz-line-height-21: 1.429;
+  --mz-font-size-20: 1.25rem;
+  --mz-line-height-20: 1.45;
+  --mz-font-size-19: 1.1875rem;
+  --mz-line-height-19: 1.474;
+  --mz-font-size-18: 1.125rem;
+  --mz-line-height-18: 1.5;
+  --mz-font-size-17: 1.0625rem;
+  --mz-line-height-17: 1.5;
+  --mz-font-size-16: 1rem;
+  --mz-line-height-16: 1.5;
+  --mz-font-size-15: .9375rem;
+  --mz-line-height-15: 1.5;
+  --mz-font-size-14: .875rem;
+  --mz-line-height-14: 1.5;
+  --mz-font-size-13: .8125rem;
+  --mz-line-height-13: 1.5;
+  --mz-font-size-12: .75rem;
+  --mz-line-height-12: 1.5;
+  --mz-font-size-11: .6875rem;
+  --mz-line-height-11: 1.5;
+}

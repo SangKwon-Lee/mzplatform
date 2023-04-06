@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" as="style" crossorigin
+    href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css" />
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      overflow-wrap: break-word;
+      font-family: 'Pretandard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+        'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+      border-spacing: 0;
+      list-style: none;
+      border-collapse: collapse;
+      -webkit-appearence: none;
+      appearance: none;
+    }
+
+    .container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    article {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      min-width: 360px;
+      max-width: 600px;
+    }
+
+    .title_bg {
+      width: 100%;
+      height: 300px;
+      padding: 80px 16px 0px 16px;
+      background-color: #97a3f3;
+    }
+
+    .title_wrapper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 16px;
+    }
+
+    main {
+      background-color: white;
+      padding: 32px 16px;
+      font-family: 'Gothic A1';
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: 700;
+      color: white;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 24px;
+    }
+
+    h3 {
+      font-weight: 400;
+      font-size: 16px;
+      color: white;
+      margin-bottom: 16px;
+      line-height: 20.8px;
+    }
+
+    h4 {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    time {
+      font-size: 12px;
+      color: white;
+    }
+
+    section {
+      line-height: 26px;
+      font-size: 16px;
+      color: #343a40;
+      margin-bottom: 40px;
+    }
+
+    p {
+      line-height: 26px;
+      font-size: 16px;
+      color: #343a40;
+      font-weight: 400;
+    }
+
+    figcaption {
+      font-size: 12px;
+      color: #adb5bd;
+    }
+
+    .title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 26px;
+      margin-bottom: 24px;
+    }
+
+    .card_wrapper {
+      padding: 16px;
+      border-radius: 16px;
+      background-color: #fafaff;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .card_title {
+      background-color: #a2a5f9;
+      padding: 8px 16px;
+      font-size: 16px;
+      line-height: 16px;
+      font-weight: 700;
+      color: white;
+      width: fit-content;
+      border-radius: 99px;
+      margin-bottom: 16px;
+    }
+
+    strong {
+      font-size: 16px;
+      line-height: 26px;
+      color: #0085ff;
+      font-weight: 400;
+    }
+
+    p.card_description {
+      font-size: 14px;
+      line-height: 21px;
+      margin-top: 16px;
+      margin-bottom: 24px;
+      color: #6c757d;
+    }
+
+    .tag_warapper {
+      display: flex;
+      gap: 4px;
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+
+    .tag {
+      width: fit-content;
+      background-color: #f2f9fc;
+      font-size: 12px;
+      font-weight: 500;
+      color: #1cb0f6;
+      padding: 6px 8px;
+      border: 1px solid #acdef6;
+      border-radius: 8px;
+      line-height: 12px;
+    }
+
+    .editor_container {
+      display: flex;
+      flex-direction: column;
+      margin-top: 40px;
+    }
+
+    p.editor {
+      font-size: 14px;
+      color: #495057;
+      margin-bottom: 16px;
+    }
+
+    .editor_wrapper {
+      padding: 8px;
+      border-radius: 8px;
+      background-color: #f8f9fa;
+    }
+
+    p.warning {
+      font-size: 14px;
+      line-height: 150%;
+      color: #6c757d;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="container">
+    <article>
+      <header>
+        <div class="title_bg">
+          <div class="title_wrapper">
+            <h1>경제뉴스,</h1>
+            <h1>이렇게 다 망했다고?</h1>
+          </div>
+          <h3>[경제 뉴스 독해법] 거시경제, 산업, 금융, 부동산 등 살피는 분야 다양해</h3>
+          <time>2022.09.26</time>
+        </div>
+        <img src="../images/wonderingSample.svg" style="width: 100%; max-width: 600px" />
+      </header>
+      <main>
+        <section>
+          <p>
+            ‘경제 뉴스’란 무엇일까요? 그냥 경제에 대해 다루는 뉴스일까요? 이것은 반은 맞고 반은 틀렸어요. 경제에 대해 다루는 뉴스이긴 하지만, 여기서
+            말하는 ‘경제’가 지칭하는 범위는 폭이 꽤 넓기 때문이죠. 우리는 경제 기사를 간단히 뭉뚱그려 생각하기 쉽지만, 언론사 경제 뉴스는 생각보다
+            다양해요. 언론사의 각 부서별 담당 영역을 알아두면 앞으로 분야별 경제 뉴스를 파악하는 데 도움이 될 거예요. 일반적으로 언론사에 있는 경제
+            관련 뉴스 부서는 다음과 같이 나뉘어요.
+          </p>
+        </section>
+        <section>
+          <h2>왜 지금일까?</h2>
+          <p>
+            ‘경제 뉴스’란 무엇일까요? 그냥 경제에 대해 다루는 뉴스일까요? 이것은 반은 맞고 반은 틀렸어요. 경제에 대해 다루는 뉴스이긴 하지만, 여기서
+            말하는 ‘경제’가 지칭하는 범위는 폭이 꽤 넓기 때문이죠. 우리는 경제 기사를 간단히 뭉뚱그려 생각하기 쉽지만, 언론사 경제 뉴스는 생각보다
+            다양해요. 언론사의 각 부서별 담당 영역을 알아두면 앞으로 분야별 경제 뉴스를 파악하는 데 도움이 될 거예요. 일반적으로 언론사에 있는 경제
+            관련 뉴스 부서는 다음과 같이 나뉘어요.
+          </p>
+        </section>
+        <section>
+          <h4>∙ 배터리 재활용(리사이클링) 개념도</h4>
+          <figure>
+            <img src="../images//wonderingSample2.svg" style="width: 100%; max-width: 600px" />
+            <figcaption>자료 : THEELEC 유튜브 채널(http://youtu.be/JEWjaSVR8Q) 2021.09.29</figcaption>
+          </figure>
+        </section>
+        <section>
+          <h2>에코프로비엠: 낙폭과대 2차전지. 숏커버* 기대.</h2>
+          <div class="card_wrapper">
+            <div class="card_title">원더링 해설</div>
+            <p>
+              에코프로 계열사인 에코프로비엠은 2차전지 소재(양극재) 생산업체입니다. 이 회사의 현재 주가는
+              <strong>과도하게 하락한 상태</strong>로 파악돼요. 이유는 <strong>공매도</strong>*가 많이 나왔기 때문인데요.
+            </p>
+            <p class="card_description">
+              * 공매도(空賣渡) : 앞으로 주가가 하락할 듯한 주식이 보이면 다른 투자자한테서 그 주식을 빌려서 파는 행위를 말해요.
+            </p>
+            <p>
+              하지만 공매도 탓에 주가가 크게 떨어진 주식은 머지않아 그만큼 그 주식을 사려는 수요가 늘어날 가능성이 커요. 그러면 주가 상승을 기대할
+              수 있어요.
+            </p>
+            <p class="card_description">
+              * 숏커버(Short Cover): 매도한 주식을 다시 사들이는 것을 말해요. 공매도 후에는 빌린 주식을 갚기 위해 늘 숏커버가 이어져요.
+            </p>
+            <div class="tag_wrapper">
+              <span class="tag">#에코프로비엠</span>
+              <span class="tag">#공매도</span>
+              <span class="tag">#숏커버</span>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="tag_wrapper">
+            <span class="tag">#에코프로비엠</span>
+            <span class="tag">#공매도</span>
+            <span class="tag">#숏커버</span>
+          </div>
+          <div class="editor_container">
+            <p class="editor">Contents Editor 이혜경</p>
+            <div class="editor__wrapper">
+              <p class="warning">
+                이 글은 엄브렐라 리서치가 제공한 콘텐츠를 원더링의 운영 가이드에 따라 편집했습니다. 해당 콘텐츠는 종목 추천이나 투자 권유를 목적으로
+                하지 않습니다.
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+    </article>
+  </div>
+</body>
+
+</html>

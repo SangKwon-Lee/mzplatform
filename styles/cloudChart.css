@@ -1,0 +1,274 @@
+.artist {
+  animation-name: scaleAni !important;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText {
+  animation-name: scaleAni !important;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+@keyframes scaleAni {
+  0% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  80% {
+    transform: scale(1.1);
+  }
+  90% {
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.artist:nth-of-type(1) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.44s;
+  animation-delay: 0.4s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(2) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(3) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.49s;
+  animation-delay: 0.45s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(4) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.47s;
+  animation-delay: 0.53s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(5) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.48s;
+  animation-delay: 0.48s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(6) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.43s;
+  animation-delay: 0.42s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(7) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.52s;
+  animation-delay: 0.51s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(8) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.5s;
+  animation-delay: 0.41s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(9) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.48s;
+  animation-delay: 0.59s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.artist:nth-of-type(10) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.4s;
+  animation-delay: 0.53s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(1) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.44s;
+  animation-delay: 0.4s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(2) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(3) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.49s;
+  animation-delay: 0.45s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(4) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.47s;
+  animation-delay: 0.53s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(5) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.48s;
+  animation-delay: 0.48s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(6) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.43s;
+  animation-delay: 0.42s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(7) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.52s;
+  animation-delay: 0.51s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(8) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.5s;
+  animation-delay: 0.41s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(9) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.48s;
+  animation-delay: 0.49s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}
+
+.svgText:nth-of-type(10) {
+  animation-name: scaleAni !important;
+  animation-name: jaehee;
+  animation-duration: 0.4s;
+  animation-delay: 0.53s;
+  opacity: 0;
+  animation-duration: leaner;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation-fill-mode: forwards;
+}

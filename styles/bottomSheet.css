@@ -1,0 +1,21 @@
+div[data-rsbs-header] {
+  display: none !important;
+}
+
+div[data-rsbs-overlay] {
+  z-index: 100 !important;
+}
+
+div[aria-modal] {
+  padding-top: 16px !important;
+  border-top-left-radius: 32px !important;
+  border-top-right-radius: 32px !important;
+  /* min-height: 300px; */
+}
+div[data-rsbs-scroll] {
+  overflow: hidden !important;
+}
+
+div[data-rsbs-content] {
+  overflow: visible !important;
+}

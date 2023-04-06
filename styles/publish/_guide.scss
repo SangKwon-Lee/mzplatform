@@ -1,0 +1,210 @@
+/* 퍼블가이드 */
+.guide {
+  & > * {
+    width: 100%;
+    padding: 0 20px;
+  }
+  &__tit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #fff;
+    background-color: cornflowerblue;
+  }
+  &__list {
+    width: 100%;
+    padding: 20px;
+  }
+  &__inr {
+    width: 100%;
+    th, td {
+      padding: 12px 6px;
+      font-size: 14px;
+      text-align: center;
+      vertical-align: middle;
+      border: 1px solid #8f8053;
+      background: #fff;
+    }
+    thead {
+      th {
+        font-weight: 700;
+      } 
+    }
+    tbody {
+      td:nth-child(2),
+      td:nth-child(3),
+      td:nth-child(4),
+      td:nth-child(5) {
+        text-align: left;
+      }
+    }
+  }
+
+  &__cont {
+    background: #E9ECEF;
+    .gutter {
+      width: 15%;
+      line-height: 2.75vh;
+    }
+    .code {
+      width: 85%;
+      font-size: 14px;
+      position: relative;
+    }
+    h2 {
+      margin-bottom: 20px;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 1.5;
+    }
+    h3 {
+      font-size: 20px;
+      line-height: 1.5;
+    }
+
+    table.guie-table {
+      width: 100%;
+      th, td {
+        padding: 0.7rem;
+        vertical-align: middle;
+        border: 1px solid #ddd;
+      }
+    }
+
+    .g-h3 {
+      color: coral;
+      font-weight: bold;
+    }
+    
+    .g-code+.g-h4 {
+      margin-top: 20px;
+    }
+    
+    .g-h3+.g-desc {
+      margin-bottom: 20px;
+    }
+    
+    .css-heg063-MuiTabs-flexContainer {
+      display: flex;
+      width: 100%;
+    }
+    
+    .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+      font-size: 16px;
+      font-weight: bold;
+      flex: 1;
+    }
+    
+    /* TABLE */
+    table {
+    
+      width: 100%;
+    }
+    
+    th {
+      padding: 0.7rem;
+      vertical-align: middle;
+      border: 1px solid #ddd;
+    }
+    
+    td {
+      padding: 0.7rem;
+      vertical-align: middle;
+      border: 1px solid #ddd;
+    }
+    
+    .layout_table {
+      border-top: 1px solid #000;
+      border-bottom: 1px solid #000;
+      overflow-x: auto;
+    }
+    
+    /* 테이블 스타일 : th col */
+    .col_tabel th {
+      border-right: none;
+      border-left: none;
+      border-bottom: 1px solid #000;
+      background: #f3f3f3;
+    }
+    
+    .col_tabel td:first-child {
+      border-left: none;
+    }
+    
+    .col_tabel td:last-child {
+      border-right: none;
+    }
+    
+    /* 테이블 스타일 : th row */
+    .row_tabel {
+      margin: 0 0 5rem 0;
+      overflow-x: auto;
+    }
+    
+    .row_tabel th {
+      border-left: none;
+      background: #f3f3f3;
+    }
+    
+    .row_tabel td {
+      border-right: none;
+    }
+    
+    .MuiBox-root:nth-child(2) > .MuiTabPanel-root:nth-last-of-type(1) {
+      display: flex;
+      position: relative;
+      padding: 20px 0;
+    }
+    
+    .MuiBox-root:nth-of-type(1)>div[role="tabpanel"]:nth-of-type(1),
+    .MuiBox-root:nth-of-type(1)>.MuiTabPanel-root[hidden] {
+      display: none;
+    }
+    
+    .MuiBox-root:nth-of-type(1)>.MuiTabPanel-root .MuiTabPanel-root.left-20vh {
+      position: absolute;
+      left: 0;
+      top: 85px;
+      display: flex;
+      flex-direction: column;
+      width: calc(100%);
+      padding: 16px;
+    }
+    
+    .MuiTabPanel-root .MuiTabs-scroller .MuiTab-textColorPrimary[role="tab"] {
+      align-items: flex-start;
+    }
+    
+    .code .line p.html {
+      display: inline-block;
+    }
+    
+    .g-section-body .g-code,
+    .g-tbl-type1 {
+      overflow-x: auto;
+    }
+    .codeGuide {
+      padding: 20px;
+      background: #f7f7f7;
+    }
+    .codeView {
+      padding: 20px;
+      background: #E9ECEF;
+      border: 5px solid #f7f7f7;
+    }
+    .codeGuide ul li:before {
+      content: "-";
+      width: 10px;
+      display: inline-block;
+    }
+    h4 {
+      font-size: 22px;
+      font-weight: 500;
+      margin: 20px 0 10px;
+    }
+  }
+}

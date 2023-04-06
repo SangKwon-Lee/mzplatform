@@ -1,0 +1,186 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.6/dist/web/static/pretendard.css');
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-wrap: break-word;
+  font-family: 'Pretandard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR',
+    'Malgun Gothic', 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+  border-spacing: 0;
+  list-style: none;
+  border-collapse: collapse;
+  -webkit-appearence: none;
+  appearance: none;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+article {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 360px;
+  max-width: 600px;
+}
+
+.title_bg {
+  width: 100%;
+  height: 250px;
+  padding: 80px 16px 0px 16px;
+  background-color: #97a3f3;
+}
+
+.title_wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+main {
+  background-color: white;
+  padding: 32px 16px;
+  font-family: 'Gothic A1';
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  color: white;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 16px;
+  line-height: 20.8px;
+}
+
+h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+time {
+  font-size: 12px;
+  color: white;
+}
+
+section {
+  line-height: 26px;
+  font-size: 16px;
+  color: #343a40;
+  margin-bottom: 40px;
+}
+
+p {
+  line-height: 26px;
+  font-size: 16px;
+  color: #343a40;
+  font-weight: 400;
+}
+
+figcaption {
+  font-size: 12px;
+  color: #adb5bd;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 24px;
+}
+
+.card_wrapper {
+  padding: 16px;
+  border-radius: 16px;
+  background-color: #fafaff;
+  display: flex;
+  flex-direction: column;
+}
+
+.card_title {
+  background-color: #a2a5f9;
+  padding: 8px 16px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  color: white;
+  width: fit-content;
+  border-radius: 99px;
+  margin-bottom: 16px;
+}
+
+strong {
+  font-size: 16px;
+  line-height: 26px;
+  color: #0085ff;
+  font-weight: 400;
+}
+
+p.card_description {
+  font-size: 14px;
+  line-height: 21px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+  color: #6c757d;
+}
+
+.tag_warapper {
+  display: flex;
+  gap: 4px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.tag {
+  width: fit-content;
+  background-color: #f2f9fc;
+  font-size: 12px;
+  font-weight: 500;
+  color: #1cb0f6;
+  padding: 6px 8px;
+  border: 1px solid #acdef6;
+  border-radius: 8px;
+  line-height: 12px;
+}
+
+.editor_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+p.editor {
+  font-size: 14px;
+  color: #495057;
+  margin-bottom: 16px;
+}
+
+.editor_wrapper {
+  padding: 8px;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+}
+
+p.warning {
+  font-size: 14px;
+  line-height: 150%;
+  color: #6c757d;
+}

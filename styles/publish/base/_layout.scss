@@ -1,0 +1,130 @@
+/* Header */
+.header {
+  $this: '.header';
+  top: 0;
+  z-index: 6;
+  width: 100%;
+  & + .container {
+    padding-top: 56px;
+    .content{
+      & > form{
+        padding-top:24px;
+      }
+    }
+  }
+  &--type-B{
+    & + .container{
+      padding-top: 80px;
+    }
+    & + .container.page-feed-main{
+      overflow-x: hidden;
+    }
+    & + .container.page-feed-main,
+    & + .container.page-club-main{
+      padding-top: 56px;
+    }
+  }
+  &--type-C{
+    #{$this}__tit {
+      position: absolute;
+      top: 50%;
+      left: 68%;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 1.2;
+      transform: translate(-50%, -50%);
+      width: 100%;
+      z-index: 100;
+      visibility: hidden;
+    }
+    & + .container {
+      padding-top: 56px;
+      .content{
+        & > form{
+          padding-top:24px;
+        }
+      }
+    }
+  }
+  &__inr {
+    display: flex;
+    align-items: center;
+    position: relative;
+    max-width: 600px;
+    height: 56px;
+    margin: 0 auto;
+    padding: 16px;
+    background: #fff;
+    border-bottom: 1px solid #E9ECEF;
+  }
+  &__tit {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  &__utility {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    & > *:not(:first-child) {
+      margin-left: 8px;
+    }
+    right: 0px;
+    padding: 20px;
+  }
+  &__search {
+    flex: 1;
+    .MuiInputBase-input {
+      border: 0 none !important;
+    }
+    .base-input{
+      &--add-icon{
+        .MuiInputBase-input{
+          padding-left: 0;
+        }
+      }
+    }
+  }
+  &--type {
+    &-A {
+      position: fixed;
+    }
+    &-B {
+      position: absolute;
+      #{$this}__inr {
+        background: transparent;
+      }
+    }
+    &-C {
+      position: fixed;
+      .header{
+        &__tit{
+          white-space:nowrap;
+          overflow:hidden;
+          text-overflow:ellipsis;
+          width:75%;
+          left:50%;
+        }
+      }
+    }
+  }
+}
+.header.page-main{
+  background-color: transparent;
+  .header{
+    &__inr{
+      background-color: transparent;
+    }
+  }
+  .base-input .MuiInputBase-root,
+  .base-input .MuiInputBase-input{
+    background-color: transparent;
+  }
+}

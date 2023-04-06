@@ -1,0 +1,47 @@
+.fullDialogModal  :global {
+  z-index: 1052 !important;
+  //z-index: 101 !important;
+  .MuiDialog-paper {
+    max-width: 600px;
+    //padding: 30px;
+    .MuiDialogTitle-root {
+      margin-bottom: 16px;
+      text-align: center;
+    }
+    .MuiDialogContent-root {
+      overflow: hidden;
+      padding: 0;
+    }
+    .MuiDialogContentText-root {
+      text-align: center;
+      font-size: 16px;
+      color: #495057;
+      white-space: pre-line;
+    }
+    .MuiDialogActions-root {
+      justify-content: center;
+      margin-top: 16px;
+      padding: 0;
+      button {
+        width: 90px;
+        height: auto;
+        padding: 12px 12px 11px 12px;
+        font-weight: 500;
+        font-size: 14px;
+        border-radius: 48px;  
+      }
+    }
+  }
+  .fullDialogModal__body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  .MuiIconButton-sizeMedium{
+    width: 16px;
+    height: 16px;
+    right: 16px;
+    top: 25px;
+  }
+}
